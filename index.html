@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <main>
+        <div class="calculator_container">
+            <div class="output_container">
+                <output name="operation_output" data-operation-display class="operation_output">&nbsp</output>
+                <output name="result_output" data-result-display class="result_output">0</output>
+            </div>
+            <button value="C" class="btn_clear" data-clear>C</button>
+            <button value="del" class="del_clear" data-del>del</button>
+            <button value="/" data-operation>/</button>
+            <button value="1" data-digit data-can-display>1</button>
+            <button value="2" data-digit data-can-display>2</button>
+            <button value="3" data-digit data-can-display>3</button>
+            <button value="*" data-operation>*</button>
+            <button value="4" data-digit data-can-display>4</button>
+            <button value="5" data-digit data-can-display>5</button>
+            <button value="6" data-digit data-can-display>6</button>
+            <button value="-" data-operation>-</button>
+            <button value="7" data-digit data-can-display>7</button>
+            <button value="8" data-digit data-can-display>8</button>
+            <button value="9" data-digit data-can-display>9</button>
+            <button value="+" data-operation>+</button>
+            <button value="0" data-digit data-can-display>0</button>
+            <button value="+/-" data-digit data-turn-negatif>+ / -</button>
+            <button value="." data-digit data-point>.</button>
+            <button value="=" class="btn_equals" data-equal>=</button>
+        </div>
+    </main>
+</body>
+
+</html>
